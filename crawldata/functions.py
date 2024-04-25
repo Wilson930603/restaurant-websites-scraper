@@ -143,7 +143,7 @@ def format_timing(time):
     return new_dict
 
 def get_coordinates_google(address):
-    geolocator = GoogleV3(api_key='AIzaSyBHSpydL8BHHFrkASMYQmiWXaZV198z21E')
+    geolocator = GoogleV3(api_key='xxxxxx')
     location = geolocator.geocode(address)
     if location:
         latitude = location.latitude
